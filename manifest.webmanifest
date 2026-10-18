@@ -1,0 +1,20 @@
+{
+  "name": "SleepArchitect — cycles de sommeil",
+  "short_name": "SleepArchitect",
+  "description": "Calculez vos heures de coucher et de réveil en suivant vos cycles de sommeil.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#06091a",
+  "theme_color": "#06091a",
+  "categories": ["health", "lifestyle", "utilities"],
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

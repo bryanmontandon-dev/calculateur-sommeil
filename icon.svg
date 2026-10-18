@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SleepArchitect">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="0.55" stop-color="#4338ca"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="moon" x1="0.2" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c7d2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <path fill="url(#moon)" d="M300 108c-73 14-128 78-128 155 0 86 70 156 156 156 24 0 47-5 67-15-33 56-94 94-164 94C125 498 28 401 28 282 28 163 125 66 244 66c20 0 39 3 56 8z" transform="translate(96 48) scale(0.62)"/>
+  <g fill="#fde68a">
+    <path d="M352 150l12 30 30 12-30 12-12 30-12-30-30-12 30-12z"/>
+    <path d="M300 258l8 20 20 8-20 8-8 20-8-20-20-8 20-8z" opacity="0.8"/>
+    <circle cx="384" cy="246" r="7" opacity="0.7"/>
+  </g>
+</svg>

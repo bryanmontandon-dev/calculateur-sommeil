@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr" data-theme="night">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>SleepArchitect — calculateur de cycles de sommeil</title>
+    <meta
+      name="description"
+      content="Calculez l'heure idéale pour vous coucher ou vous lever en suivant vos cycles de sommeil : hypnogramme, siestes, profils et alarme exportable."
+    />
+    <meta name="theme-color" content="#06091a" />
+    <meta name="color-scheme" content="dark light" />
+
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <link rel="apple-touch-icon" href="./icon.svg" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SleepArchitect — calculateur de cycles de sommeil" />
+    <meta
+      property="og:description"
+      content="Vos heures de coucher et de réveil alignées sur vos cycles de sommeil."
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Applique le thème mémorisé avant le premier rendu, pour éviter le flash. -->
+    <script>
+      try {
+        var stored = JSON.parse(localStorage.getItem('sleep-architect:theme') || '"night"');
+        document.documentElement.dataset.theme = stored === 'day' ? 'day' : 'night';
+      } catch (e) {
+        document.documentElement.dataset.theme = 'night';
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-CKe0leNh.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CpegPXaC.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding: 2rem; font-family: system-ui; color: #e9edfb">
+        SleepArchitect a besoin de JavaScript pour calculer vos cycles de sommeil.
+      </p>
+    </noscript>
+  </body>
+</html>
